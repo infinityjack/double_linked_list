@@ -1,3 +1,6 @@
+#ifndef DOUBLE_H
+#define DOUBLE_H
+
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
@@ -327,3 +330,5 @@ typedef char* string;
         }\
         L->size -= 1;\
     }
+    
+#endif
